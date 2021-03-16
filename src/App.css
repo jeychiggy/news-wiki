@@ -27,6 +27,54 @@
 .App-link {
   color: #61dafb;
 }
+.container-main-div{
+  display: inline-flex;
+  flex-direction: row;
+  margin-top: 100px;
+}
+.container-publisher-name{
+  font-family: 'Martel Sans', sans-serif;
+}
+.article{
+  border-width: 20px;
+  /*background-color: red;*/
+  border-color: black;
+}
+.main-article{
+  width: auto
+}
+.main-date{
+  display: inline-flex;
+  flex-direction: row;
+  margin-top: 16px;
+  justify-content: space-between;
+  width: 100%
+}
+
+.main-publisher{
+  font-size: 10px;
+  color: gray;
+  margin-right: 16px
+}
+.publisher{
+  font-size: 10px;
+  color: gray;
+}
+
+.article-title{
+  font-size: 20px;
+  font-family: 'El Messiri', sans-serif;
+}
+
+.published-date{
+  font-size: 9px;
+  color: gray;
+}
+
+.form-div{
+  margin-top: 40px;
+  margin-left: 80px;
+}
 
 @keyframes App-logo-spin {
   from {
